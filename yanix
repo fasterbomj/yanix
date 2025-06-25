@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Yanix</title>
+    <style>
+        /* Фон страницы */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://unsplash.com/photos/an-aerial-view-of-a-forest-with-lots-of-trees-5OcNKQvy3eI'); /* Ссылка на картинку фона */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Стили для текста */
+        .content {
+            font-size: 2em;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон под текст */
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>Автор: yanix</p>
+        <h1>блябуду</h1>
+    </div>
+</body>
+</html>
